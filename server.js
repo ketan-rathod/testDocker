@@ -4,7 +4,8 @@ const mocks = require('ronin-mocks')
 const server = ronin.server()
 
 server.use('/', mocks.server(server.Router(), false, true))
-server.start()
-console.log("Server started.....")
-server.stop()
-console.log("Server stopped....")
+console.log("Just testing....")
+//server.start()
+//console.log("Server started.....")
+//server.
+//console.log("Server stopped....")
